@@ -1,0 +1,61 @@
+import matplotlib.pyplot as plt
+import numpy as np
+class subplot:
+    def plot():
+        x_axis_1=np.random.randint(10,50,12)
+        # y_axis_1=np.random.randint(50,100,12)
+        plt.subplot(3,3,1)
+        plt.pie(x_axis_1)
+        plt.legend('yo')
+        
+
+        x_axis_2=np.random.randint(10,50,12)
+        y_axis_2=np.random.randint(50,100,12)
+        plt.subplot(3,3,2)
+        plt.bar(x_axis_2,y_axis_2)
+        plt.legend('yo')
+
+        x_axis_3=np.random.randint(10,50,12)
+        y_axis_3=np.random.randint(50,100,12)
+        plt.subplot(3,3,3)
+        plt.scatter(x_axis_3,y_axis_3)
+        plt.legend('yo')
+
+        x_axis_4=np.random.randint(10,50,12)
+        y_axis_4=np.random.randint(50,100,12)
+        plt.subplot(3,3,4)
+        plt.plot(x_axis_4,y_axis_4)
+        plt.legend('yo')
+        
+        x_axis_5=np.random.randint(10,50,12)
+        y_axis_5=np.random.randint(50,100,12)
+        plt.subplot(3,3,5)
+        plt.plot(x_axis_5,y_axis_5)
+        plt.legend('yo')
+
+        x_axis_6=np.random.randint(10,50,12)
+        y_axis_6=np.random.randint(50,100,12)
+        plt.subplot(3,3,6)
+        plt.plot(x_axis_6,y_axis_6)
+        plt.legend('yo')
+
+        x_axis_7=np.random.randint(10,50,12)
+        y_axis_7=np.random.randint(50,100,12)
+        plt.subplot(3,3,7)
+        plt.scatter(x_axis_7, y_axis_7)
+        plt.legend('yo')
+
+        x_axis_8=np.random.randint(10,50,12)
+        y_axis_8=np.random.randint(50,100,12)
+        plt.subplot(3,3,8)
+        plt.scatter(x_axis_8, y_axis_8)
+        plt.legend('yo')
+
+        x_axis_9=np.random.randint(10,50,12)
+        y_axis_9=np.random.randint(50,100,12)
+        plt.subplot(3,3,9)
+        plt.scatter(x_axis_9, y_axis_9)
+        
+        plt.legend('yo')
+        plt.show()
+subplot.plot()
